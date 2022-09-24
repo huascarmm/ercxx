@@ -9,7 +9,7 @@ type UnitLendingFixtureType = {
   mockUsdc: MockContract;
 };
 
-export const unitLendingFixture: Fixture<UnitLendingFixtureType> = async (
+export const lendingFixture: Fixture<UnitLendingFixtureType> = async (
   signers: Wallet[]
 ) => {
   const deployer: Wallet = signers[0];
